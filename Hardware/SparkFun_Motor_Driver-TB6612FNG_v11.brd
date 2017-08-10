@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -175,22 +175,22 @@
 <text x="16.51" y="16.002" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">AIN2</text>
 <text x="16.51" y="18.542" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">PWMA</text>
 <text x="12.2428" y="19.0119" size="0.8128" layer="16" font="vector" ratio="15" rot="MR0">v11</text>
-<text x="5.1054" y="19.431" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">VM</text>
+<text x="5.1054" y="19.4564" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">VM</text>
 <text x="5.8674" y="16.9164" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">VCC</text>
 <text x="5.8674" y="14.3764" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">GND</text>
 <text x="5.8674" y="1.6764" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">GND</text>
-<text x="14.605" y="0.889" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
-<text x="5.8674" y="11.938" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">A01</text>
-<text x="5.842" y="9.3472" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">A02</text>
+<text x="14.6304" y="0.8636" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
+<text x="5.8674" y="11.8364" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">A01</text>
+<text x="5.8674" y="9.2964" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">A02</text>
 <text x="5.8674" y="6.7564" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">B02</text>
 <text x="5.8674" y="4.2164" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">B01</text>
-<text x="13.8684" y="3.429" size="0.8128" layer="21" font="vector" ratio="15">PWMB</text>
-<text x="14.859" y="5.9436" size="0.8128" layer="21" font="vector" ratio="15">BI2</text>
+<text x="13.8684" y="3.4036" size="0.8128" layer="21" font="vector" ratio="15">PWMB</text>
+<text x="14.8844" y="5.9436" size="0.8128" layer="21" font="vector" ratio="15">BI2</text>
 <text x="14.8844" y="8.4836" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0">BI1</text>
 <text x="15.3797" y="11.5062" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0">ST</text>
-<text x="14.859" y="13.589" size="0.8128" layer="21" font="vector" ratio="15">AI1</text>
-<text x="14.859" y="16.129" size="0.8128" layer="21" font="vector" ratio="15">AI2</text>
-<text x="13.843" y="18.669" size="0.8128" layer="21" font="vector" ratio="15">PWMA</text>
+<text x="14.8844" y="13.5636" size="0.8128" layer="21" font="vector" ratio="15">AI1</text>
+<text x="14.8844" y="16.1036" size="0.8128" layer="21" font="vector" ratio="15">AI2</text>
+<text x="13.8938" y="18.6436" size="0.8128" layer="21" font="vector" ratio="15">PWMA</text>
 <text x="15.3797" y="10.5156" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0">BY</text>
 <text x="7.3787" y="2.413" size="1.27" layer="21" font="vector" ratio="15">MOTOR</text>
 <text x="6.9342" y="0.9525" size="1.27" layer="21" font="vector" ratio="15">DRIVER</text>
