@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -241,223 +241,55 @@ chip</description>
 </library>
 <library name="Testing">
 <packages>
-<package name="1X08_OFFSET_SMALL">
-<polygon width="0.002540625" layer="17">
-<vertex x="-0.9398" y="0" curve="90"/>
-<vertex x="0" y="-0.9398" curve="90"/>
-<vertex x="0.9398" y="0"/>
-<vertex x="0.9398" y="0.9398" curve="91.569617"/>
-<vertex x="0" y="1.8796" curve="85.289132"/>
-<vertex x="-0.9398" y="0.9398"/>
-</polygon>
+<package name="1X01_OFFSET_SMALL">
 <hole x="0" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="-1.0414" y="0" curve="90"/>
-<vertex x="0" y="-1.0414" curve="90"/>
-<vertex x="1.0414" y="0"/>
-<vertex x="1.0414" y="0.9398" curve="91.569617"/>
-<vertex x="0" y="1.9812" curve="85.289132"/>
-<vertex x="-1.0414" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="-1.0414" y="0" curve="90"/>
-<vertex x="0" y="-1.0414" curve="90"/>
-<vertex x="1.0414" y="0"/>
-<vertex x="1.0414" y="0.9398" curve="91.569617"/>
-<vertex x="0" y="1.9812" curve="85.289132"/>
-<vertex x="-1.0414" y="0.9398"/>
-</polygon>
-<pad name="1" x="0" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="1.6002" y="0" curve="90"/>
-<vertex x="2.54" y="-0.9398" curve="90"/>
-<vertex x="3.4798" y="0"/>
-<vertex x="3.4798" y="0.9398" curve="91.569617"/>
-<vertex x="2.54" y="1.8796" curve="85.289132"/>
-<vertex x="1.6002" y="0.9398"/>
-</polygon>
+<pad name="P$1" x="0" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="2.54" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="1.4986" y="0" curve="90"/>
-<vertex x="2.54" y="-1.0414" curve="90"/>
-<vertex x="3.5814" y="0"/>
-<vertex x="3.5814" y="0.9398" curve="91.569617"/>
-<vertex x="2.54" y="1.9812" curve="85.289132"/>
-<vertex x="1.4986" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="1.4986" y="0" curve="90"/>
-<vertex x="2.54" y="-1.0414" curve="90"/>
-<vertex x="3.5814" y="0"/>
-<vertex x="3.5814" y="0.9398" curve="91.569617"/>
-<vertex x="2.54" y="1.9812" curve="85.289132"/>
-<vertex x="1.4986" y="0.9398"/>
-</polygon>
-<pad name="2" x="2.54" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="4.1402" y="0" curve="90"/>
-<vertex x="5.08" y="-0.9398" curve="90"/>
-<vertex x="6.0198" y="0"/>
-<vertex x="6.0198" y="0.9398" curve="91.569617"/>
-<vertex x="5.08" y="1.8796" curve="85.289132"/>
-<vertex x="4.1402" y="0.9398"/>
-</polygon>
+<pad name="P$2" x="2.54" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="5.08" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="4.0386" y="0" curve="90"/>
-<vertex x="5.08" y="-1.0414" curve="90"/>
-<vertex x="6.1214" y="0"/>
-<vertex x="6.1214" y="0.9398" curve="91.569617"/>
-<vertex x="5.08" y="1.9812" curve="85.289132"/>
-<vertex x="4.0386" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="4.0386" y="0" curve="90"/>
-<vertex x="5.08" y="-1.0414" curve="90"/>
-<vertex x="6.1214" y="0"/>
-<vertex x="6.1214" y="0.9398" curve="91.569617"/>
-<vertex x="5.08" y="1.9812" curve="85.289132"/>
-<vertex x="4.0386" y="0.9398"/>
-</polygon>
-<pad name="3" x="5.08" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="6.6802" y="0" curve="90"/>
-<vertex x="7.62" y="-0.9398" curve="90"/>
-<vertex x="8.5598" y="0"/>
-<vertex x="8.5598" y="0.9398" curve="91.569617"/>
-<vertex x="7.62" y="1.8796" curve="85.289132"/>
-<vertex x="6.6802" y="0.9398"/>
-</polygon>
+<pad name="P$3" x="5.08" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="7.62" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="6.5786" y="0" curve="90"/>
-<vertex x="7.62" y="-1.0414" curve="90"/>
-<vertex x="8.6614" y="0"/>
-<vertex x="8.6614" y="0.9398" curve="91.569617"/>
-<vertex x="7.62" y="1.9812" curve="85.289132"/>
-<vertex x="6.5786" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="6.5786" y="0" curve="90"/>
-<vertex x="7.62" y="-1.0414" curve="90"/>
-<vertex x="8.6614" y="0"/>
-<vertex x="8.6614" y="0.9398" curve="91.569617"/>
-<vertex x="7.62" y="1.9812" curve="85.289132"/>
-<vertex x="6.5786" y="0.9398"/>
-</polygon>
-<pad name="4" x="7.62" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="9.2202" y="0" curve="90"/>
-<vertex x="10.16" y="-0.9398" curve="90"/>
-<vertex x="11.0998" y="0"/>
-<vertex x="11.0998" y="0.9398" curve="91.569617"/>
-<vertex x="10.16" y="1.8796" curve="85.289132"/>
-<vertex x="9.2202" y="0.9398"/>
-</polygon>
+<pad name="P$4" x="7.62" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="10.16" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="9.1186" y="0" curve="90"/>
-<vertex x="10.16" y="-1.0414" curve="90"/>
-<vertex x="11.2014" y="0"/>
-<vertex x="11.2014" y="0.9398" curve="91.569617"/>
-<vertex x="10.16" y="1.9812" curve="85.289132"/>
-<vertex x="9.1186" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="9.1186" y="0" curve="90"/>
-<vertex x="10.16" y="-1.0414" curve="90"/>
-<vertex x="11.2014" y="0"/>
-<vertex x="11.2014" y="0.9398" curve="91.569617"/>
-<vertex x="10.16" y="1.9812" curve="85.289132"/>
-<vertex x="9.1186" y="0.9398"/>
-</polygon>
-<pad name="5" x="10.16" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="11.7602" y="0" curve="90"/>
-<vertex x="12.7" y="-0.9398" curve="90"/>
-<vertex x="13.6398" y="0"/>
-<vertex x="13.6398" y="0.9398" curve="91.569617"/>
-<vertex x="12.7" y="1.8796" curve="85.289132"/>
-<vertex x="11.7602" y="0.9398"/>
-</polygon>
+<pad name="P$5" x="10.16" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="12.7" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="11.6586" y="0" curve="90"/>
-<vertex x="12.7" y="-1.0414" curve="90"/>
-<vertex x="13.7414" y="0"/>
-<vertex x="13.7414" y="0.9398" curve="91.569617"/>
-<vertex x="12.7" y="1.9812" curve="85.289132"/>
-<vertex x="11.6586" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="11.6586" y="0" curve="90"/>
-<vertex x="12.7" y="-1.0414" curve="90"/>
-<vertex x="13.7414" y="0"/>
-<vertex x="13.7414" y="0.9398" curve="91.569617"/>
-<vertex x="12.7" y="1.9812" curve="85.289132"/>
-<vertex x="11.6586" y="0.9398"/>
-</polygon>
-<pad name="6" x="12.7" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="14.3002" y="0" curve="90"/>
-<vertex x="15.24" y="-0.9398" curve="90"/>
-<vertex x="16.1798" y="0"/>
-<vertex x="16.1798" y="0.9398" curve="91.569617"/>
-<vertex x="15.24" y="1.8796" curve="85.289132"/>
-<vertex x="14.3002" y="0.9398"/>
-</polygon>
+<pad name="P$6" x="12.7" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="15.24" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="14.1986" y="0" curve="90"/>
-<vertex x="15.24" y="-1.0414" curve="90"/>
-<vertex x="16.2814" y="0"/>
-<vertex x="16.2814" y="0.9398" curve="91.569617"/>
-<vertex x="15.24" y="1.9812" curve="85.289132"/>
-<vertex x="14.1986" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="14.1986" y="0" curve="90"/>
-<vertex x="15.24" y="-1.0414" curve="90"/>
-<vertex x="16.2814" y="0"/>
-<vertex x="16.2814" y="0.9398" curve="91.569617"/>
-<vertex x="15.24" y="1.9812" curve="85.289132"/>
-<vertex x="14.1986" y="0.9398"/>
-</polygon>
-<pad name="7" x="15.24" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="16.8402" y="0" curve="90"/>
-<vertex x="17.78" y="-0.9398" curve="90"/>
-<vertex x="18.7198" y="0"/>
-<vertex x="18.7198" y="0.9398" curve="91.569617"/>
-<vertex x="17.78" y="1.8796" curve="85.289132"/>
-<vertex x="16.8402" y="0.9398"/>
-</polygon>
+<pad name="P$7" x="15.24" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="17.78" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="16.7386" y="0" curve="90"/>
-<vertex x="17.78" y="-1.0414" curve="90"/>
-<vertex x="18.8214" y="0"/>
-<vertex x="18.8214" y="0.9398" curve="91.569617"/>
-<vertex x="17.78" y="1.9812" curve="85.289132"/>
-<vertex x="16.7386" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="16.7386" y="0" curve="90"/>
-<vertex x="17.78" y="-1.0414" curve="90"/>
-<vertex x="18.8214" y="0"/>
-<vertex x="18.8214" y="0.9398" curve="91.569617"/>
-<vertex x="17.78" y="1.9812" curve="85.289132"/>
-<vertex x="16.7386" y="0.9398"/>
-</polygon>
-<pad name="8" x="17.78" y="0" drill="1.1176" diameter="1.8796"/>
-<rectangle x1="2.3495" y1="-0.1905" x2="2.7305" y2="0.1905" layer="51"/>
-<rectangle x1="-0.1905" y1="-0.1905" x2="0.1905" y2="0.1905" layer="51"/>
-<rectangle x1="17.5895" y1="-0.1905" x2="17.9705" y2="0.1905" layer="51"/>
-<rectangle x1="15.0495" y1="-0.1905" x2="15.4305" y2="0.1905" layer="51"/>
-<rectangle x1="12.5095" y1="-0.1905" x2="12.8905" y2="0.1905" layer="51"/>
-<rectangle x1="9.9695" y1="-0.1905" x2="10.3505" y2="0.1905" layer="51"/>
-<rectangle x1="7.4295" y1="-0.1905" x2="7.8105" y2="0.1905" layer="51"/>
-<rectangle x1="4.8895" y1="-0.1905" x2="5.2705" y2="0.1905" layer="51"/>
+<pad name="P$8" x="17.78" y="0" drill="1.1176" diameter="1.8796"/>
+<wire x1="0" y1="0" x2="0" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="0" y1="0" x2="0" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="0" y1="0" x2="0" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="2.080259375" layer="30"/>
+<hole x="0" y="0" drill="1.1176"/>
+<hole x="2.54" y="0" drill="1.1176"/>
+<hole x="5.08" y="0" drill="1.1176"/>
+<hole x="7.62" y="0" drill="1.1176"/>
+<hole x="10.16" y="0" drill="1.1176"/>
+<hole x="12.7" y="0" drill="1.1176"/>
+<hole x="15.24" y="0" drill="1.1176"/>
+<hole x="17.78" y="0" drill="1.1176"/>
 </package>
 </packages>
 </library>
@@ -1966,10 +1798,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="11.91" y="15.51" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="14.704" y="24.2" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="JP1" library="Testing" package="1X08_OFFSET_SMALL" value="" x="2.54" y="1.27" smashed="yes" rot="R90">
+<element name="JP1" library="Testing" package="1X01_OFFSET_SMALL" value="" x="2.54" y="1.27" smashed="yes" rot="R90">
 <attribute name="VALUE" x="6.35" y="0" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="JP2" library="Testing" package="1X08_OFFSET_SMALL" value="" x="17.78" y="19.05" smashed="yes" rot="R270">
+<element name="JP2" library="Testing" package="1X01_OFFSET_SMALL" value="" x="17.78" y="19.05" smashed="yes" rot="R270">
 <attribute name="VALUE" x="13.97" y="20.32" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-19.05" y="-12.7"/>
@@ -1991,9 +1823,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C1" pad="2"/>
 <contactref element="C3" pad="C"/>
 <contactref element="C2" pad="2"/>
-<contactref element="JP1" pad="1"/>
-<contactref element="JP2" pad="8"/>
-<contactref element="JP1" pad="6"/>
+<contactref element="JP1" pad="P$1"/>
+<contactref element="JP2" pad="P$8"/>
+<contactref element="JP1" pad="P$6"/>
 <wire x1="6.504" y1="6.615" x2="6.504" y2="7.265" width="0.254" layer="1"/>
 <wire x1="6.504" y1="10.515" x2="6.504" y2="11.165" width="0.254" layer="1"/>
 <wire x1="6.504" y1="7.265" x2="7.646" y2="7.265" width="0.254" layer="1"/>
@@ -2027,7 +1859,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="A01">
 <contactref element="U1" pad="2"/>
 <contactref element="U1" pad="1"/>
-<contactref element="JP1" pad="5"/>
+<contactref element="JP1" pad="P$5"/>
 <wire x1="6.35" y1="12.1412" x2="6.7564" y2="12.1412" width="0.9144" layer="1"/>
 <wire x1="6.7564" y1="12.1412" x2="6.7818" y2="12.1158" width="0.9144" layer="1"/>
 <wire x1="6.504" y1="12.2952" x2="6.504" y2="12.465" width="0.254" layer="1"/>
@@ -2041,7 +1873,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="A02">
 <contactref element="U1" pad="6"/>
 <contactref element="U1" pad="5"/>
-<contactref element="JP1" pad="4"/>
+<contactref element="JP1" pad="P$4"/>
 <wire x1="6.35" y1="9.5504" x2="6.7564" y2="9.5504" width="0.9144" layer="1"/>
 <wire x1="6.7564" y1="9.5504" x2="6.7818" y2="9.525" width="0.9144" layer="1"/>
 <wire x1="6.504" y1="9.7044" x2="6.504" y2="9.865" width="0.254" layer="1"/>
@@ -2055,7 +1887,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="B02">
 <contactref element="U1" pad="8"/>
 <contactref element="U1" pad="7"/>
-<contactref element="JP1" pad="3"/>
+<contactref element="JP1" pad="P$3"/>
 <wire x1="6.35" y1="8.2296" x2="6.7818" y2="8.2296" width="0.9144" layer="1"/>
 <wire x1="6.504" y1="8.0756" x2="6.504" y2="7.915" width="0.254" layer="1"/>
 <wire x1="6.35" y1="8.2296" x2="6.504" y2="8.0756" width="0.254" layer="1"/>
@@ -2068,7 +1900,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="B01">
 <contactref element="U1" pad="12"/>
 <contactref element="U1" pad="11"/>
-<contactref element="JP1" pad="2"/>
+<contactref element="JP1" pad="P$2"/>
 <wire x1="6.35" y1="5.6388" x2="6.7818" y2="5.6388" width="0.9144" layer="1"/>
 <wire x1="6.504" y1="5.4848" x2="6.504" y2="5.315" width="0.254" layer="1"/>
 <wire x1="6.35" y1="5.6388" x2="6.504" y2="5.4848" width="0.254" layer="1"/>
@@ -2084,7 +1916,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U1" pad="24"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C3" pad="A"/>
-<contactref element="JP1" pad="8"/>
+<contactref element="JP1" pad="P$8"/>
 <wire x1="8.89" y1="16.51" x2="8.51" y2="16.51" width="0.9144" layer="1"/>
 <wire x1="10.668" y1="14.732" x2="8.89" y2="16.51" width="0.9144" layer="1"/>
 <wire x1="10.668" y1="13.97" x2="10.668" y2="14.732" width="0.9144" layer="1"/>
@@ -2109,7 +1941,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="20"/>
-<contactref element="JP1" pad="7"/>
+<contactref element="JP1" pad="P$7"/>
 <contactref element="C2" pad="1"/>
 <wire x1="9.54" y1="13.97" x2="9.54" y2="14.59" width="0.254" layer="1"/>
 <wire x1="9.3472" y1="14.7828" x2="9.54" y2="14.59" width="0.254" layer="1"/>
@@ -2129,7 +1961,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="PWMA">
 <contactref element="U1" pad="23"/>
-<contactref element="JP2" pad="1"/>
+<contactref element="JP2" pad="P$1"/>
 <wire x1="13.816" y1="11.815" x2="14.609" y2="11.815" width="0.254" layer="1"/>
 <wire x1="14.609" y1="11.815" x2="14.9606" y2="12.1666" width="0.254" layer="1"/>
 <wire x1="14.9606" y1="12.1666" x2="14.9606" y2="17.7038" width="0.254" layer="1"/>
@@ -2138,7 +1970,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="AIN2">
 <contactref element="U1" pad="22"/>
-<contactref element="JP2" pad="2"/>
+<contactref element="JP2" pad="P$2"/>
 <wire x1="13.816" y1="11.165" x2="14.848" y2="11.165" width="0.254" layer="1"/>
 <wire x1="14.848" y1="11.165" x2="15.494" y2="11.811" width="0.254" layer="1"/>
 <wire x1="15.494" y1="11.811" x2="15.494" y2="15.494" width="0.254" layer="1"/>
@@ -2147,7 +1979,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="AIN1">
 <contactref element="U1" pad="21"/>
-<contactref element="JP2" pad="3"/>
+<contactref element="JP2" pad="P$3"/>
 <wire x1="13.97" y1="13.97" x2="17.78" y2="13.97" width="0.254" layer="16"/>
 <wire x1="12.2682" y1="12.2682" x2="13.97" y2="13.97" width="0.254" layer="16"/>
 <wire x1="13.816" y1="10.515" x2="12.9038" y2="10.515" width="0.254" layer="1"/>
@@ -2157,7 +1989,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="STBY">
 <contactref element="U1" pad="19"/>
-<contactref element="JP2" pad="4"/>
+<contactref element="JP2" pad="P$4"/>
 <wire x1="13.816" y1="9.215" x2="14.676" y2="9.215" width="0.254" layer="1"/>
 <wire x1="14.676" y1="9.215" x2="15.24" y2="9.779" width="0.254" layer="1"/>
 <wire x1="15.24" y1="9.779" x2="15.24" y2="10.668" width="0.254" layer="1"/>
@@ -2166,21 +1998,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="BIN1">
 <contactref element="U1" pad="17"/>
-<contactref element="JP2" pad="5"/>
+<contactref element="JP2" pad="P$5"/>
 <wire x1="13.816" y1="7.915" x2="14.9" y2="7.915" width="0.254" layer="1"/>
 <wire x1="14.9" y1="7.915" x2="15.875" y2="8.89" width="0.254" layer="1"/>
 <wire x1="15.875" y1="8.89" x2="17.78" y2="8.89" width="0.254" layer="1"/>
 </signal>
 <signal name="BIN2">
 <contactref element="U1" pad="16"/>
-<contactref element="JP2" pad="6"/>
+<contactref element="JP2" pad="P$6"/>
 <wire x1="13.816" y1="7.265" x2="15.595" y2="7.265" width="0.254" layer="1"/>
 <wire x1="15.595" y1="7.265" x2="16.51" y2="6.35" width="0.254" layer="1"/>
 <wire x1="16.51" y1="6.35" x2="17.78" y2="6.35" width="0.254" layer="1"/>
 </signal>
 <signal name="PWMB">
 <contactref element="U1" pad="15"/>
-<contactref element="JP2" pad="7"/>
+<contactref element="JP2" pad="P$7"/>
 <wire x1="13.816" y1="6.615" x2="14.975" y2="6.615" width="0.254" layer="1"/>
 <wire x1="14.975" y1="6.615" x2="15.24" y2="6.35" width="0.254" layer="1"/>
 <wire x1="15.24" y1="6.35" x2="15.24" y2="5.08" width="0.254" layer="1"/>

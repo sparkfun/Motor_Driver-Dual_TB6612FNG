@@ -700,223 +700,55 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </library>
 <library name="Testing">
 <packages>
-<package name="1X08_OFFSET_SMALL">
-<polygon width="0.002540625" layer="17">
-<vertex x="-0.9398" y="0" curve="90"/>
-<vertex x="0" y="-0.9398" curve="90"/>
-<vertex x="0.9398" y="0"/>
-<vertex x="0.9398" y="0.9398" curve="91.569617"/>
-<vertex x="0" y="1.8796" curve="85.289132"/>
-<vertex x="-0.9398" y="0.9398"/>
-</polygon>
+<package name="1X01_OFFSET_SMALL">
 <hole x="0" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="-1.0414" y="0" curve="90"/>
-<vertex x="0" y="-1.0414" curve="90"/>
-<vertex x="1.0414" y="0"/>
-<vertex x="1.0414" y="0.9398" curve="91.569617"/>
-<vertex x="0" y="1.9812" curve="85.289132"/>
-<vertex x="-1.0414" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="-1.0414" y="0" curve="90"/>
-<vertex x="0" y="-1.0414" curve="90"/>
-<vertex x="1.0414" y="0"/>
-<vertex x="1.0414" y="0.9398" curve="91.569617"/>
-<vertex x="0" y="1.9812" curve="85.289132"/>
-<vertex x="-1.0414" y="0.9398"/>
-</polygon>
-<pad name="1" x="0" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="1.6002" y="0" curve="90"/>
-<vertex x="2.54" y="-0.9398" curve="90"/>
-<vertex x="3.4798" y="0"/>
-<vertex x="3.4798" y="0.9398" curve="91.569617"/>
-<vertex x="2.54" y="1.8796" curve="85.289132"/>
-<vertex x="1.6002" y="0.9398"/>
-</polygon>
+<pad name="P$1" x="0" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="2.54" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="1.4986" y="0" curve="90"/>
-<vertex x="2.54" y="-1.0414" curve="90"/>
-<vertex x="3.5814" y="0"/>
-<vertex x="3.5814" y="0.9398" curve="91.569617"/>
-<vertex x="2.54" y="1.9812" curve="85.289132"/>
-<vertex x="1.4986" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="1.4986" y="0" curve="90"/>
-<vertex x="2.54" y="-1.0414" curve="90"/>
-<vertex x="3.5814" y="0"/>
-<vertex x="3.5814" y="0.9398" curve="91.569617"/>
-<vertex x="2.54" y="1.9812" curve="85.289132"/>
-<vertex x="1.4986" y="0.9398"/>
-</polygon>
-<pad name="2" x="2.54" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="4.1402" y="0" curve="90"/>
-<vertex x="5.08" y="-0.9398" curve="90"/>
-<vertex x="6.0198" y="0"/>
-<vertex x="6.0198" y="0.9398" curve="91.569617"/>
-<vertex x="5.08" y="1.8796" curve="85.289132"/>
-<vertex x="4.1402" y="0.9398"/>
-</polygon>
+<pad name="P$2" x="2.54" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="5.08" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="4.0386" y="0" curve="90"/>
-<vertex x="5.08" y="-1.0414" curve="90"/>
-<vertex x="6.1214" y="0"/>
-<vertex x="6.1214" y="0.9398" curve="91.569617"/>
-<vertex x="5.08" y="1.9812" curve="85.289132"/>
-<vertex x="4.0386" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="4.0386" y="0" curve="90"/>
-<vertex x="5.08" y="-1.0414" curve="90"/>
-<vertex x="6.1214" y="0"/>
-<vertex x="6.1214" y="0.9398" curve="91.569617"/>
-<vertex x="5.08" y="1.9812" curve="85.289132"/>
-<vertex x="4.0386" y="0.9398"/>
-</polygon>
-<pad name="3" x="5.08" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="6.6802" y="0" curve="90"/>
-<vertex x="7.62" y="-0.9398" curve="90"/>
-<vertex x="8.5598" y="0"/>
-<vertex x="8.5598" y="0.9398" curve="91.569617"/>
-<vertex x="7.62" y="1.8796" curve="85.289132"/>
-<vertex x="6.6802" y="0.9398"/>
-</polygon>
+<pad name="P$3" x="5.08" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="7.62" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="6.5786" y="0" curve="90"/>
-<vertex x="7.62" y="-1.0414" curve="90"/>
-<vertex x="8.6614" y="0"/>
-<vertex x="8.6614" y="0.9398" curve="91.569617"/>
-<vertex x="7.62" y="1.9812" curve="85.289132"/>
-<vertex x="6.5786" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="6.5786" y="0" curve="90"/>
-<vertex x="7.62" y="-1.0414" curve="90"/>
-<vertex x="8.6614" y="0"/>
-<vertex x="8.6614" y="0.9398" curve="91.569617"/>
-<vertex x="7.62" y="1.9812" curve="85.289132"/>
-<vertex x="6.5786" y="0.9398"/>
-</polygon>
-<pad name="4" x="7.62" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="9.2202" y="0" curve="90"/>
-<vertex x="10.16" y="-0.9398" curve="90"/>
-<vertex x="11.0998" y="0"/>
-<vertex x="11.0998" y="0.9398" curve="91.569617"/>
-<vertex x="10.16" y="1.8796" curve="85.289132"/>
-<vertex x="9.2202" y="0.9398"/>
-</polygon>
+<pad name="P$4" x="7.62" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="10.16" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="9.1186" y="0" curve="90"/>
-<vertex x="10.16" y="-1.0414" curve="90"/>
-<vertex x="11.2014" y="0"/>
-<vertex x="11.2014" y="0.9398" curve="91.569617"/>
-<vertex x="10.16" y="1.9812" curve="85.289132"/>
-<vertex x="9.1186" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="9.1186" y="0" curve="90"/>
-<vertex x="10.16" y="-1.0414" curve="90"/>
-<vertex x="11.2014" y="0"/>
-<vertex x="11.2014" y="0.9398" curve="91.569617"/>
-<vertex x="10.16" y="1.9812" curve="85.289132"/>
-<vertex x="9.1186" y="0.9398"/>
-</polygon>
-<pad name="5" x="10.16" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="11.7602" y="0" curve="90"/>
-<vertex x="12.7" y="-0.9398" curve="90"/>
-<vertex x="13.6398" y="0"/>
-<vertex x="13.6398" y="0.9398" curve="91.569617"/>
-<vertex x="12.7" y="1.8796" curve="85.289132"/>
-<vertex x="11.7602" y="0.9398"/>
-</polygon>
+<pad name="P$5" x="10.16" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="12.7" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="11.6586" y="0" curve="90"/>
-<vertex x="12.7" y="-1.0414" curve="90"/>
-<vertex x="13.7414" y="0"/>
-<vertex x="13.7414" y="0.9398" curve="91.569617"/>
-<vertex x="12.7" y="1.9812" curve="85.289132"/>
-<vertex x="11.6586" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="11.6586" y="0" curve="90"/>
-<vertex x="12.7" y="-1.0414" curve="90"/>
-<vertex x="13.7414" y="0"/>
-<vertex x="13.7414" y="0.9398" curve="91.569617"/>
-<vertex x="12.7" y="1.9812" curve="85.289132"/>
-<vertex x="11.6586" y="0.9398"/>
-</polygon>
-<pad name="6" x="12.7" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="14.3002" y="0" curve="90"/>
-<vertex x="15.24" y="-0.9398" curve="90"/>
-<vertex x="16.1798" y="0"/>
-<vertex x="16.1798" y="0.9398" curve="91.569617"/>
-<vertex x="15.24" y="1.8796" curve="85.289132"/>
-<vertex x="14.3002" y="0.9398"/>
-</polygon>
+<pad name="P$6" x="12.7" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="15.24" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="14.1986" y="0" curve="90"/>
-<vertex x="15.24" y="-1.0414" curve="90"/>
-<vertex x="16.2814" y="0"/>
-<vertex x="16.2814" y="0.9398" curve="91.569617"/>
-<vertex x="15.24" y="1.9812" curve="85.289132"/>
-<vertex x="14.1986" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="14.1986" y="0" curve="90"/>
-<vertex x="15.24" y="-1.0414" curve="90"/>
-<vertex x="16.2814" y="0"/>
-<vertex x="16.2814" y="0.9398" curve="91.569617"/>
-<vertex x="15.24" y="1.9812" curve="85.289132"/>
-<vertex x="14.1986" y="0.9398"/>
-</polygon>
-<pad name="7" x="15.24" y="0" drill="1.1176" diameter="1.8796"/>
-<polygon width="0.002540625" layer="17">
-<vertex x="16.8402" y="0" curve="90"/>
-<vertex x="17.78" y="-0.9398" curve="90"/>
-<vertex x="18.7198" y="0"/>
-<vertex x="18.7198" y="0.9398" curve="91.569617"/>
-<vertex x="17.78" y="1.8796" curve="85.289132"/>
-<vertex x="16.8402" y="0.9398"/>
-</polygon>
+<pad name="P$7" x="15.24" y="0" drill="1.1176" diameter="1.8796"/>
 <hole x="17.78" y="0" drill="1.1176"/>
-<polygon width="0.002540625" layer="29">
-<vertex x="16.7386" y="0" curve="90"/>
-<vertex x="17.78" y="-1.0414" curve="90"/>
-<vertex x="18.8214" y="0"/>
-<vertex x="18.8214" y="0.9398" curve="91.569617"/>
-<vertex x="17.78" y="1.9812" curve="85.289132"/>
-<vertex x="16.7386" y="0.9398"/>
-</polygon>
-<polygon width="0.002540625" layer="30">
-<vertex x="16.7386" y="0" curve="90"/>
-<vertex x="17.78" y="-1.0414" curve="90"/>
-<vertex x="18.8214" y="0"/>
-<vertex x="18.8214" y="0.9398" curve="91.569617"/>
-<vertex x="17.78" y="1.9812" curve="85.289132"/>
-<vertex x="16.7386" y="0.9398"/>
-</polygon>
-<pad name="8" x="17.78" y="0" drill="1.1176" diameter="1.8796"/>
-<rectangle x1="2.3495" y1="-0.1905" x2="2.7305" y2="0.1905" layer="51"/>
-<rectangle x1="-0.1905" y1="-0.1905" x2="0.1905" y2="0.1905" layer="51"/>
-<rectangle x1="17.5895" y1="-0.1905" x2="17.9705" y2="0.1905" layer="51"/>
-<rectangle x1="15.0495" y1="-0.1905" x2="15.4305" y2="0.1905" layer="51"/>
-<rectangle x1="12.5095" y1="-0.1905" x2="12.8905" y2="0.1905" layer="51"/>
-<rectangle x1="9.9695" y1="-0.1905" x2="10.3505" y2="0.1905" layer="51"/>
-<rectangle x1="7.4295" y1="-0.1905" x2="7.8105" y2="0.1905" layer="51"/>
-<rectangle x1="4.8895" y1="-0.1905" x2="5.2705" y2="0.1905" layer="51"/>
+<pad name="P$8" x="17.78" y="0" drill="1.1176" diameter="1.8796"/>
+<wire x1="0" y1="0" x2="0" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="0" y1="0" x2="0" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="2.080259375" layer="29"/>
+<wire x1="0" y1="0" x2="0" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="2.080259375" layer="30"/>
+<hole x="0" y="0" drill="1.1176"/>
+<hole x="2.54" y="0" drill="1.1176"/>
+<hole x="5.08" y="0" drill="1.1176"/>
+<hole x="7.62" y="0" drill="1.1176"/>
+<hole x="10.16" y="0" drill="1.1176"/>
+<hole x="12.7" y="0" drill="1.1176"/>
+<hole x="15.24" y="0" drill="1.1176"/>
+<hole x="17.78" y="0" drill="1.1176"/>
 </package>
 <package name="1X08">
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
@@ -1413,16 +1245,16 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <technology name=""/>
 </technologies>
 </device>
-<device name="75_PERCENT_REDUCED" package="1X08_OFFSET_SMALL">
+<device name="75_PERCENT_REDUCED" package="1X01_OFFSET_SMALL">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
 </connects>
 <technologies>
 <technology name=""/>
