@@ -145,6 +145,8 @@
 <layer number="229" name="229bmp" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="230" name="230bmp" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="231bmp" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -700,47 +702,39 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </library>
 <library name="Testing">
 <packages>
-<package name="1X01_OFFSET_SMALL">
-<hole x="0" y="0" drill="1.1176"/>
-<pad name="P$1" x="0" y="0" drill="1.1176" diameter="1.8796"/>
-<hole x="2.54" y="0" drill="1.1176"/>
-<pad name="P$2" x="2.54" y="0" drill="1.1176" diameter="1.8796"/>
-<hole x="5.08" y="0" drill="1.1176"/>
-<pad name="P$3" x="5.08" y="0" drill="1.1176" diameter="1.8796"/>
-<hole x="7.62" y="0" drill="1.1176"/>
-<pad name="P$4" x="7.62" y="0" drill="1.1176" diameter="1.8796"/>
-<hole x="10.16" y="0" drill="1.1176"/>
-<pad name="P$5" x="10.16" y="0" drill="1.1176" diameter="1.8796"/>
-<hole x="12.7" y="0" drill="1.1176"/>
-<pad name="P$6" x="12.7" y="0" drill="1.1176" diameter="1.8796"/>
-<hole x="15.24" y="0" drill="1.1176"/>
-<pad name="P$7" x="15.24" y="0" drill="1.1176" diameter="1.8796"/>
-<hole x="17.78" y="0" drill="1.1176"/>
-<pad name="P$8" x="17.78" y="0" drill="1.1176" diameter="1.8796"/>
+<package name="1X08_OFFSET_REDUCED">
+<pad name="1" x="0" y="0" drill="1.1176" diameter="1.8796"/>
 <wire x1="0" y1="0" x2="0" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="0" y1="0" x2="0" y2="0.9398" width="2.0828" layer="29"/>
+<wire x1="0" y1="0" x2="0" y2="0.9398" width="2.0828" layer="30"/>
+<pad name="2" x="2.54" y="0" drill="1.1176" diameter="1.8796"/>
 <wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="2.0828" layer="29"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="2.0828" layer="30"/>
+<pad name="3" x="5.08" y="0" drill="1.1176" diameter="1.8796"/>
 <wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="2.0828" layer="29"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="2.0828" layer="30"/>
+<pad name="4" x="7.62" y="0" drill="1.1176" diameter="1.8796"/>
 <wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="2.0828" layer="29"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="2.0828" layer="30"/>
+<pad name="5" x="10.16" y="0" drill="1.1176" diameter="1.8796"/>
 <wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="2.0828" layer="29"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="2.0828" layer="30"/>
+<pad name="6" x="12.7" y="0" drill="1.1176" diameter="1.8796"/>
 <wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="2.0828" layer="29"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="2.0828" layer="30"/>
+<pad name="7" x="15.24" y="0" drill="1.1176" diameter="1.8796"/>
 <wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="1.8796" layer="17"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="2.0828" layer="29"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="2.0828" layer="30"/>
+<pad name="8" x="17.78" y="0" drill="1.1176" diameter="1.8796"/>
 <wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="1.8796" layer="17"/>
-<wire x1="0" y1="0" x2="0" y2="0.9398" width="2.080259375" layer="29"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="2.080259375" layer="29"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="2.080259375" layer="29"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="2.080259375" layer="29"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="2.080259375" layer="29"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="2.080259375" layer="29"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="2.080259375" layer="29"/>
-<wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="2.080259375" layer="29"/>
-<wire x1="0" y1="0" x2="0" y2="0.9398" width="2.080259375" layer="30"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="0.9398" width="2.080259375" layer="30"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="0.9398" width="2.080259375" layer="30"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="0.9398" width="2.080259375" layer="30"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="0.9398" width="2.080259375" layer="30"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="0.9398" width="2.080259375" layer="30"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="0.9398" width="2.080259375" layer="30"/>
-<wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="2.080259375" layer="30"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="2.0828" layer="29"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="0.9398" width="2.0828" layer="30"/>
 <hole x="0" y="0" drill="1.1176"/>
 <hole x="2.54" y="0" drill="1.1176"/>
 <hole x="5.08" y="0" drill="1.1176"/>
@@ -1245,16 +1239,16 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <technology name=""/>
 </technologies>
 </device>
-<device name="75_PERCENT_REDUCED" package="1X01_OFFSET_SMALL">
+<device name="75_PERCENT_REDUCED" package="1X08_OFFSET_REDUCED">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-<connect gate="G$1" pin="4" pad="P$4"/>
-<connect gate="G$1" pin="5" pad="P$5"/>
-<connect gate="G$1" pin="6" pad="P$6"/>
-<connect gate="G$1" pin="7" pad="P$7"/>
-<connect gate="G$1" pin="8" pad="P$8"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
