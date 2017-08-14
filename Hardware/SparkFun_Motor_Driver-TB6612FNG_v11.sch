@@ -20712,6 +20712,48 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-PowerSymbols">
+<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
+This library contains power, ground, and voltage-supply symbols.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="VCC">
+<description>&lt;h3&gt;VCC Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VCC" prefix="SUPPLY">
+<description>&lt;h3&gt;VCC Voltage Supply&lt;/h3&gt;
+&lt;p&gt;Positive voltage supply (traditionally for a BJT device, C=collector).&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="VCC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20757,6 +20799,9 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20770,21 +20815,24 @@ VCC=2.7-5.5V</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="129.54" y="99.06"/>
-<instance part="C1" gate="G$1" x="114.3" y="129.54" smashed="yes">
-<attribute name="NAME" x="110.236" y="132.207" size="1.778" layer="95"/>
-<attribute name="VALUE" x="106.426" y="127.127" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="93.98" y="121.92" smashed="yes">
+<attribute name="NAME" x="92.837" y="119.126" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="96.901" y="115.062" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C2" gate="G$1" x="96.52" y="129.54"/>
-<instance part="C3" gate="G$1" x="121.92" y="132.08" smashed="yes">
-<attribute name="NAME" x="122.936" y="132.715" size="1.778" layer="95"/>
-<attribute name="VALUE" x="122.936" y="127.889" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="162.56" y="121.92" smashed="yes">
+<attribute name="NAME" x="161.417" y="119.126" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="165.481" y="115.062" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="C3" gate="G$1" x="101.6" y="124.46" smashed="yes">
+<attribute name="NAME" x="100.457" y="118.872" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.267" y="115.57" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="JP1" gate="G$1" x="58.42" y="93.98"/>
 <instance part="JP2" gate="G$1" x="187.96" y="96.52" rot="R180"/>
 <instance part="GND1" gate="1" x="106.68" y="76.2"/>
-<instance part="GND2" gate="1" x="114.3" y="121.92"/>
-<instance part="GND3" gate="1" x="96.52" y="121.92"/>
-<instance part="GND4" gate="1" x="121.92" y="121.92"/>
+<instance part="GND2" gate="1" x="93.98" y="114.3"/>
+<instance part="GND3" gate="1" x="162.56" y="114.3"/>
+<instance part="GND4" gate="1" x="101.6" y="114.3"/>
 <instance part="GND5" gate="1" x="149.86" y="78.74"/>
 <instance part="GND6" gate="1" x="66.04" y="81.28"/>
 <instance part="GND7" gate="1" x="180.34" y="81.28"/>
@@ -20797,6 +20845,9 @@ VCC=2.7-5.5V</text>
 <instance part="FD2" gate="G$1" x="241.3" y="38.1" rot="R90"/>
 <instance part="FD3" gate="G$1" x="236.22" y="38.1" rot="R90"/>
 <instance part="FD4" gate="G$1" x="231.14" y="38.1" rot="R90"/>
+<instance part="SUPPLY1" gate="G$1" x="157.48" y="129.54"/>
+<instance part="SUPPLY2" gate="G$1" x="71.12" y="109.22"/>
+<instance part="SUPPLY3" gate="G$1" x="162.56" y="129.54"/>
 </instances>
 <busses>
 </busses>
@@ -20827,17 +20878,17 @@ VCC=2.7-5.5V</text>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="124.46" x2="114.3" y2="127" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="116.84" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="121.92" y1="127" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="119.38" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="-"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="124.46" x2="96.52" y2="127" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="116.84" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 </segment>
@@ -20926,19 +20977,18 @@ VCC=2.7-5.5V</text>
 <wire x1="144.78" y1="86.36" x2="147.32" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="111.76" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="111.76" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="137.16" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="134.62" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="134.62" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="137.16" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="127" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="127" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="104.14" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="137.16" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="137.16" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="137.16" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
 <junction x="147.32" y="111.76"/>
 <junction x="147.32" y="86.36"/>
-<junction x="114.3" y="137.16"/>
-<junction x="121.92" y="137.16"/>
-<label x="142.24" y="137.16" size="1.778" layer="95"/>
-<label x="68.58" y="104.14" size="1.778" layer="95"/>
+<junction x="93.98" y="137.16"/>
+<junction x="101.6" y="137.16"/>
+<label x="73.66" y="104.14" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="VM2"/>
 <pinref part="U1" gate="G$1" pin="VM3"/>
 <pinref part="U1" gate="G$1" pin="VM1"/>
@@ -20949,19 +20999,21 @@ VCC=2.7-5.5V</text>
 </net>
 <net name="VCC" class="0">
 <segment>
-<wire x1="63.5" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="101.6" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="101.6" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="134.62" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
-<junction x="96.52" y="144.78"/>
-<label x="68.58" y="101.6" size="1.778" layer="95"/>
-<label x="142.24" y="144.78" size="1.778" layer="95"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+<wire x1="71.12" y1="101.6" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="7"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
+<wire x1="162.56" y1="127" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="157.48" y1="101.6" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="PWMA" class="0">
