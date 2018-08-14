@@ -35,7 +35,7 @@ Product Versions
 
 Version History
 ---------------
-* [v1.1c](https://github.com/sparkfun/Motor_Driver-Dual_TB6612FNG/releases/tag/V_1.1c) - Revision with Silkscreen/Components Update, v11
+* [v11](https://github.com/sparkfun/Motor_Driver-Dual_TB6612FNG/releases/tag/V_11) - Revision with Silkscreen/Components Update, v11
 * [v1.1b](https://github.com/sparkfun/Motor_Driver-Dual_TB6612FNG/releases/tag/V_1.1b) - Minor update
 * [v1.1](https://github.com/sparkfun/Motor_Driver-Dual_TB6612FNG/releases/tag/V_1.1) - Initial Release 
 
