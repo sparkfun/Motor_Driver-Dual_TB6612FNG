@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -92,7 +92,7 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S" xrefpart="/%S">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="SparkFun">
 <packages>
@@ -1814,7 +1814,7 @@ Various fiducial points for machine vision alignment.</description>
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun" deviceset="FRAME-LETTER" device=""/>
-<part name="U1" library="SparkFun" deviceset="TB6621FNG" device=""/>
+<part name="U1" library="SparkFun" deviceset="TB6621FNG" device="" value="TB6612FNG"/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C3" library="SparkFun" deviceset="CAP_POL" device="3528" value="10uf , 20V"/>
