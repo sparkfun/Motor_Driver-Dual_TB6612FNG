@@ -30,7 +30,7 @@ Product Versions
 ----------------
 * [ROB-14450](https://www.sparkfun.com/products/14450)- V11 With Headers
 * [ROB-14451](https://www.sparkfun.com/products/14451)- V11 Without headers
-* [ROB-13845](https://www.sparkfun.com/products/13845)- With Headers
+* *[ROB-13845 (RETIRED)](https://www.sparkfun.com/products/13845)- With Headers*
 * *[ROB-09457 (RETIRED)](https://www.sparkfun.com/products/retired/9457)- Without headers*
 
 Version History
